@@ -1,5 +1,9 @@
 package tasks_11_20.task_12;
 
+/**
+ * Удаление повторяющихся символов.
+ * Написать программу, которая удаляет повторяющиеся символы из заданной строки.
+ * */
 public class RepeatedCharRemover {
 
     public static String remove(String str) {

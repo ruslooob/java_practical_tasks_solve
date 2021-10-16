@@ -1,5 +1,11 @@
 package tasks_11_20.task_11;
 
+/**
+ * Проверка, что строка является палиндромом.
+ * Написать программу, которая выясняет, является ли данная строка палиндромом или нет.
+ * */
+
+// Оценка: 7/10
 public class PalindromeChecker {
 
     public static boolean checkV1(String str) {
@@ -8,6 +14,7 @@ public class PalindromeChecker {
                 return false;
             }
         }
+
         return true;
     }
 

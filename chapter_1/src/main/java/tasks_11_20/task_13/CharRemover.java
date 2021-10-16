@@ -1,5 +1,9 @@
 package tasks_11_20.task_13;
 
+/**
+ * Удаление заданного символа.
+ * Написать программу, которая удаляет заданный символ из заданной строки.
+ * */
 public class CharRemover {
 
     public static String removeV1(Character deleted, String str) {
