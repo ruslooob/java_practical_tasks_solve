@@ -1,4 +1,4 @@
-package task_3;
+package  tasks_1_10.task_3;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ import java.util.List;
  * */
 public class WordAndSentenceInverter {
 
+    // Оценка: 7/10
     public static String invert(String sentence) {
         String invertedSentence = SentenceInverter.invert(sentence);
         List<String> invertedSentenceWords = List.of(invertedSentence.split(" "));
